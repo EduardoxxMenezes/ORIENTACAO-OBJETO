@@ -29,7 +29,7 @@ constructor(Gasolina: number, Marca: string, KML: number, nome: string) //Constr
     this.nome = nome;
  }
  public GetCarro(): void{ //Método que explica os detalhes do carro.
-    console.log(`O carro é um ${this.nome} da marca ${this.Marca} \n ainda tem ${this.Gasolina} litros de gasolina e consome ${this.KML} litros por kilomêtros.`);
+    console.log(`TIPO DO CARRO: ${this.nome} \n MARCA: ${this.Marca} \n GASOLINA: ${this.Gasolina} LITROS POR KM: ${this.KML} `);
     
 
  }
